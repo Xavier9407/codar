@@ -1,0 +1,119 @@
+*{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    
+}
+
+
+/*Cabeçalho*/
+header{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.titulo{
+    margin: auto;
+    position: relative;
+    
+}
+
+.titulo h1{
+    color: #D6000D;
+    font-size:30pt;
+    top: 10px;
+    left: 10px;
+    
+}
+
+nav{
+    margin: auto;
+    
+}
+
+#lista-topo{
+    display: inline-flex;
+    list-style: none;
+}
+
+.link-topo{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*Main*/
+.interface{
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+}
+/*Orçamento*/
+.card{
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 80%;
+    margin: 50px auto;
+}
+
+.area-orcamento{
+
+}
+
+.area-website{
+    text-align: center;
+    margin: auto 50px;
+    
+}
+
+/*Beneficios*/
+
+.lista-beneficios{
+    display: bloc
+}
+
+/*imagem*/
+.imagem img{
+    margin: auto;
+    max-width: 600px;
+    min-width: 400px;
+    width: 80%;
+}
+
+
+h2{
+    color: #D6000D;
+    font-size:34pt;
+    margin-bottom: 30px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.botao{
+    border-radius: 5px;
+    padding: 10px 25px;
+    background-color: #D6000D;
+    margin: 10px;
+}
+
+.botao:hover{
+    color: white;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+
+footer{
+    
+    color: white;
+    background-color: black;
+}
+
